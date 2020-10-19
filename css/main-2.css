@@ -1,21 +1,17 @@
 body,html{
     height: 100%;
     margin:0 auto;
-}  
-@font-face{
-    font-family: Montserrat;
-    src:url(../css/Montserrat/Montserrat-Regular.ttf);
 } 
 
 .link{
     text-decoration: none;
-    color: #344B80;
+    color: #fff;
     padding: 10px 15px;
-    font-family: Montserrat ExtraBold;
+    font-family: 'Montserrat', sans-serif;
 } 
 .link:hover{
-    background-color: #344B80;
-    color: #fff;
+    background-color: #fff;
+    color: #344B80;
 }
 .home{
     width: 100%;
@@ -27,21 +23,21 @@ body,html{
 }
 /*heading*/
 .heading-1{
-    font-family: Montserrat ExtraBold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     color: #fff;
     margin: auto;
     padding: 20px 0px
 }
 .heading-2{
-    font-family: Montserrat ExtraBold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: #344B80;
     margin: auto;
     padding: 10px 0px
 }
 .heading-3{
-    font-family: Montserrat SemiBold;
+    font-family: 'Rubik', sans-serif;
     font-size: 15px;
     color: #344B80;
     text-align: justify;
@@ -72,10 +68,12 @@ body,html{
 
 .footer{
     background: #f8f9fa;
-    font-family: Montserrat-Regular
+    font-family: 'Montserrat', sans-serif;
+    color:  #344B80;
+    text-align: center;
     width: 100%;
     min-height: 20px;
     padding: 20px 20px;
     line-height: 50px;
-    color: #344B80;
+
 }
